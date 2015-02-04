@@ -2178,7 +2178,7 @@ These operators associate left-to-right.
 "" < "ab"       // result has value TRUE
 "a" > "A"       // result has value TRUE
 "a0" < "ab"     // result has value TRUE
-"aA <= "abc"    // result has value TRUE
+"aA" <= "abc"    // result has value TRUE
 // -----------------------------------------
 NULL < [10,2.3] // result has value TRUE
 TRUE > -3.4     // result has value FALSE

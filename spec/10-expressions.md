@@ -2595,7 +2595,7 @@ character \\0 (U+0000) is stored.
 **Examples**
 
 ```PHP
-$a = $b = 10    // equivalent to $a = ($b = 10)
+$a = $b = 10;    // equivalent to $a = ($b = 10)
 $v = array(10, 20, 30);
 $v[1] = 1.234;    // change the value (and type) of an existing element
 $v[-10] = 19;   // insert a new element with int key -10

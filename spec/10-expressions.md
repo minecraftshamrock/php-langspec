@@ -1944,7 +1944,7 @@ These operators associate left-to-right.
 ```PHP
 -10 * 100;       // int with value -1000
 100 * -3.4e10;   // float with value -3400000000000
-"123" * "2e+5;   // float with value 24600000
+"123" * "2e+5";   // float with value 24600000
 100 / 100;       // int with value 1
 100  / "123";    // float with value 0.8130081300813
 "123" % 100;     // int with value 23
